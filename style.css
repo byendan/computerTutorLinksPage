@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+.container .jumbotron {
+    background-color: rgba(108, 108, 108, 0.81);
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    border-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+   box-shadow: 1px 1px 7px #000000;
+}
+
+.container {
+ width: 99%   
+}
+
+.jumbotron h1 {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-decoration-color: white;
+    text-shadow: -2px 0 rgba(0, 0, 0, 0.5), 0 2px rgba(0, 0, 0, 0.5), 2px 0 rgba(0, 0, 0, 0.5), 0 -2px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+.gsc-control-searchbox-only.gsc-control-searchbox-only-en{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background-color: rgb(131, 0, 21);
+    border-color: rgb(131, 0, 21);
+    width: 500px;
+    height: 25px;
+    
+}
+
+
+
+
+.google-search-inline {
+    width: 300px;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    border: 5px;
+    border-color:cornflowerblue;
+    
+}
+
+
+
+
+.gsc-search-button.gsc-search-button-v2 {
+    width: 10px;
+    height: 25px;
+    
+    border-color: #ffffff;
+    background-color: #c6c4c4;
+   
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1f/Magnifying_glass_Icon.png);    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:contain;
+ 
+}
+
+
+.gsc-control-cse.gsc-control-cse-en{
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+	
+	body {
+      margin: 0;
+      padding: 0;
+      font: 15px 'Arial';
+	  background-color:rgb(44, 110, 177);
+    }
+    .wrap {
+      overflow: hidden;
+      margin: 10px;
+    }
+    .box {
+        
+      float: left;
+      position: relative;
+      width: 20%;
+      padding-bottom: 20%;
+    }
+	
+    
+	
+    .boxInner {
+        border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: 32px;
+	bottom: 10px;
+	overflow: hidden;
+	background-color:rgba(123, 119, 119, 0.85);
+    border: 2px solid black;
+        box-shadow: 3px 3px 10px #000000;
+    }
+
+    .boxInner:hover {
+        box-shadow: 7px 7px 3px #000000;
+    }
+		
+
+    .boxInner img {
+      width: 100%;
+	  height: 89%;
+    }
+    .boxInner .titleBox {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-bottom: 0px;
+      background: rgba(0, 0, 0, 0);
+      color: #FFF;
+      padding: 5px;
+      text-align: center;
+     
+    }
+
+    @media only screen and (max-width : 480px) {
+      /* Smartphone view: 1 tile */
+      .box {
+        width: 100%;
+        padding-bottom: 100%;
+      }
+    }
+    @media only screen and (max-width : 650px) and (min-width : 481px) {
+      /* Tablet view: 2 tiles */
+      .box {
+        width: 50%;
+        padding-bottom: 50%;
+      }
+    }
+    @media only screen and (max-width : 1050px) and (min-width : 651px) {
+      /* Small desktop / ipad view: 3 tiles */
+      .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+      }
+    }
+    @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+      /* Medium desktop: 4 tiles */
+      .box {
+        width: 25%;
+        padding-bottom: 25%;
+      }
+    }
+  </style>
+   Enable media queries for old IE 
+  [if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]
